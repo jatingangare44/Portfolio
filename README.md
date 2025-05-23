@@ -22,7 +22,6 @@ I'm dedicated to creating smart, user-friendly solutions that solve real-world p
 
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Design:** Figma, Adobe Photoshop, Canva
-- **Backend & Tools:** Java, JSP, Servlets, Firebase, Arduino, ESP32
 - **Deployment:** Netlify
 
 ## 📁 Features
