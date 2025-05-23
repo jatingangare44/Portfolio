@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/cropped-Jatin.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Jatin Gangare" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Jatin Gangare</h1>
+
+          <p class="title">Full Stack Java Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jatingangare44@gmail.com" class="contact-link">jatingangare44@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917208771910" class="contact-link">+91 7208771910</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-06-06">June 06, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Panvel, Maharashtra, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="http://www.linkedin.com/in/jatin-gangare" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/jatingangare44" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/jatin_gangare?igsh=MTUydWJ0ZWhkOTE0cw%3D%3D&utm_source=qr" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a passionate Java Developer and IoT Enthusiast from Maharashtra, India, with a strong foundation in app development, embedded systems, and artificial intelligence. 
+            I enjoy turning real-world problems into smart, efficient, and user-friendly digital solutions. With a BSc in Information Technology and a CGPA of 8.58, 
+            I focus on building mobile applications and IoT systems that are both practical and impactful.
+          </p>
+
+          <p>
+            My goal is to develop apps and devices that are not only functional but also intuitive and accessible. 
+            I add a personal touch to every project—whether it’s designing a clean UI, 
+            optimizing Firebase backend workflows, or building sensor-based systems with Arduino and ESP32. 
+            I’ve created solutions like Lost n’ Found, a village-level lost item recovery app.
+            I also run a small digital print business, 
+            where I combine creativity and tech to deliver ID card designs for schools and institutions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Design</h4>
+
+                <p class="service-item-text">
+                  Crafting visually compelling designs for branding and digital media.                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Projects</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item data-testimonials-date="15 Dec, 2023">
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/android_black_icon.png" alt="Android App" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Lost n’ Found App</h4>
+
+                <!-- <time datetime="2023-12-15" class="project-date">15 Dec, 2023</time> -->
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    An Android app designed to help users find and claim lost items in my village.
+                    Built using Firebase Authentication, Realtime Database, and Cloud Storage, 
+                    with separate roles for users and authenticators.
+                    The app allows finders to submit lost items to assigned authenticators who verify and list them. 
+                    Claimants can search and request items, and once verified, the item's status is updated in the database. 
+                    The app ensures transparency and helps reduce unclaimed lost property through a streamlined digital workflow.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item data-testimonials-date="02 Mar, 2025">
+                
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/fitness_logo (Custom).png" alt="Fitness Tracker" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Fitness Tracker (Java EE)</h4>
+
+                <!-- <time datetime="2024-07-08" class="project-date">08 July, 2024</time> -->
+
+                <div class="testimonials-text" data-testimonials-text >
+                  <p>
+                    A web-based fitness tracking system developed using Java EE, JSP, and MySQL.
+                    Users can log workouts, track calories, and monitor progress through a dynamic and responsive interface.
+                    The platform supports personalized user accounts, goal setting, and performance analytics. 
+                    It ensures secure data handling and offers an intuitive dashboard for health insights.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item data-testimonials-date="08 July, 2024">
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/iot_icon.png" alt="RF Communication Project" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>RF Signal Trans-Receiver</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Created a wireless communication system using Arduino and RF modules for sending 
+                    sensor data across devices.
+                    Used in various IoT and automation experiments to demonstrate real-time data transmission.
+                    The system includes a transmitter that collects data from sensors and a receiver that 
+                    processes and responds to the signal, such as triggering LEDs or relays. 
+                    It showcases fundamental concepts of RF pairing, encoding/decoding, 
+                    and noise handling in wireless systems.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item data-testimonials-date="18 Jan, 2024">
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ai_icon.png" alt="AI Expert System Project" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>ES for Lost n` Found App</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    A Python-based GUI expert system developed for answering queries related to the Lost n’ Found process 
+                    using an interactive Q&A interface. 
+                    Designed as part of an AI project to enhance user guidance and understanding.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time data-modal-time></time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Certifications</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/ad_excel (Custom).png" alt="Advance Excel">
+                <p style="text-align: center; margin-top: 5px; color: white;">Advanced Excel</p>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/cybs_icon (Custom).png" alt="CyberSecurity">
+                <p style="text-align: center; margin-top: 5px; color: white;">Cyber Security</p>
+              </a>
+            </li>
+
+            <!-- <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+
+          <a href="assets/resume/Jatin_Dnyaneshwar_Gangare(Resume).pdf" download class="download-btn">
+      <button class="btn">
+        <ion-icon name="cloud-download-outline"></ion-icon>
+        Download Resume</button>
+    </a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pillai College of arts, commerce and science, New Panvel</h4>
+
+              <span>2022 — 2025</span>
+
+              <p class="timeline-text">
+                Successfully completed a Bachelor's degree in Information Technology from 
+                Pillai College of Arts, Commerce and Science affiliated by Mumbai University. 
+                Gained strong technical knowledge in software development, database management, and networking, 
+                while also working on academic and real-world projects to build practical experience.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mahatma phule arts, commerce and science, Panvel</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Completed Higher Secondary Certificate (HSC) education under the Maharashtra State Board from 
+                Mahatma Phule Arts, Commerce and Science College, Panvel with a score of 67.33%. 
+                Gained a solid academic foundation and developed essential analytical and communication skills.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Moru Narayan Mhatre Vidyalaya, Gavhan-Kopar</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                Successfully completed Secondary School Certificate (SSC) education from Moru Narayan Mhatre Vidyalaya 
+                under the Maharashtra State Board with a commendable score of 85.20%. 
+                Developed a strong academic base and discipline that laid the groundwork for higher education.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Skills Timeline</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Learning Full Stack Java Development</h4>
+
+              <span>2025 — Present</span>
+
+              <p class="timeline-text">
+                Currently learning Java-based full stack development including Core Java, JSP, 
+                Servlets, JDBC, Spring Boot, and MySQL. 
+                Working on building dynamic web applications with backend integration.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI & Machine Learning Projects</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+                Built an expert system using Python, NLTK, and Scikit-learn. 
+                Applied ML models like Naive Bayes with TF-IDF for a chatbot-style Q&A experience.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dived into Android App Development</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Started building Android apps using Java and Android Studio. 
+                Created UIs, implemented Firebase Authentication, Realtime Database, and Storage.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Learned Web Development (HTML, CSS, JS)</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                Designed static web pages, styled layouts with CSS, and added interactivity using JavaScript. 
+                Gained hands-on experience with form validation and responsive design through realtime projects.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Explored C Programming & Logic Building</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                Started with foundational programming concepts in C and data structures. 
+                Built mini console applications and improved problem-solving ability.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Android App Development</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Photography</h5>
+                <data value="70">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java Programming</h5>
+                <data value="90">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="60">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Photography</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+
+            <button class="filter-select" data-select>
+              <span class="select-value" data-select-value>Select category</span>
+              <span class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </span>
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item data-filter-btn="all">All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-filter-btn="photography">Photography</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-filter-btn="applications">Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-filter-btn="web development">Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Fitness_Tracker.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fitness Tracker</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://generatethepass.netlify.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Pass_generator.jpeg" alt="pass_generator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pass Generator</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://randomness.netlify.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/random.png" alt="pass_generator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Random Content Generator</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="https://drive.google.com/file/d/1qvUflL58gpY0nLgjWKUZdcE8Sr7QBz-9/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sunset_person.jpg" alt="sunset" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sunset</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="https://drive.google.com/file/d/1dIfC-4aKWpktr_xKp6lOUD0dOXUE8rXE/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/night_flowers.jpg" alt="flower" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Flower</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/jatingangare44/Lost-n-Found-Application">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/lostnfound.png" alt="Lost n' Found" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lost n' Found</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="https://drive.google.com/file/d/1EDAjyonSh690vJdU7m-4gkVwUROIw-M2/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/milky_way.JPG" alt="stary sky" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stary sky</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="https://drive.google.com/file/d/1sGUzjsnaHQT61y5OMAGcQ31o32UGdScd/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/beachside.JPG" alt="beachside" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Beachside</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+<!-- 
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+            <!-- <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li> -->
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@jatingangare44/how-i-designed-my-final-year-it-project-for-social-impact-the-lost-n-found-app-a6146fcb6746">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/lostnfound.png" alt="Lost n Found App" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Android App</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 06, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The Lost n` Found App</h3>
+
+                  <p class="blog-text">
+                    A socially impactful Android app designed to help people find and claim lost 
+                    items in their village through a structured verification system.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@jatingangare44/how-to-make-impactful-documentation-for-final-year-it-projects-70b4b99d1cb7">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Documentation_thumbnail.png" alt="Impactful Documentation" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Documentation</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 07, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Impactful Documentation</h3>
+
+                  <p class="blog-text">
+                    A practical guide on how I structured and designed impactful final year IT project 
+                    documentation, with real examples from my Lost n’ Found app.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7546.292207225899!2d73.05624953691267!3d18.96915387885385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c2ca33849629%3A0x22ded08703bc042f!2sKunde%20Vahal%2C%20Ulwe%2C%20Navi%20Mumbai%2C%20Maharashtra%20410206!5e0!3m2!1sen!2sin!4v1746512873394!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/mjkwwzrz" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
+</body>
+
+</html>
